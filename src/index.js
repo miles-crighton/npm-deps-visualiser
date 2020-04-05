@@ -58,4 +58,6 @@ lockDepsKeys.forEach((sourceKey) => {
     }
 });
 
+fs.writeFileSync("graph.json", JSON.stringify(graphData));
+
 console.log(graphData);

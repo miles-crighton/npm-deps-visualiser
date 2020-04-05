@@ -3,5 +3,3 @@ d3.selectAll("p")
     .style("font-size", function (d) {
         return d + "px";
     });
-
-//Get the data from the file.
