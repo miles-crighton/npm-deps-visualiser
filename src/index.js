@@ -1,6 +1,12 @@
+#!/usr/bin/env node
+
 "use strict";
 
 const fs = require("fs");
+const path = require("path");
+
+// let packagePath = path.join("./", "package.json");
+// console.log(packagePath);
 
 function getDependencies(path) {
     let rawPackageData = fs.readFileSync(path || "package.json");
