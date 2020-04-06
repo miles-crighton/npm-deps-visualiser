@@ -1,15 +1,15 @@
 {
-  "name": "npm-deps-visualiser",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "d3": "^5.15.1"
-  }
+    "name": "npm-deps-visualiser",
+    "version": "1.0.0",
+    "description": "A web viewer for visualising an npm dependency graph",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Miles Crighton",
+    "license": "ISC",
+    "dependencies": {
+        "d3": "^5.15.1"
+    }
 }
