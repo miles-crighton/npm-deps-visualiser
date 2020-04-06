@@ -1,6 +1,6 @@
 {
     "name": "npm-deps-visualiser",
-    "version": "1.0.1",
+    "version": "1.0.15",
     "description": "A web viewer for visualising an npm dependency graph",
     "main": "./src/index.js",
     "bin": {
