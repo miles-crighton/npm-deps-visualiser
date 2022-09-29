@@ -13,6 +13,6 @@
     "author": "Miles Crighton",
     "license": "ISC",
     "dependencies": {
-        "d3": "^5.15.1"
+        "d3": "^7.6.1"
     }
 }
